@@ -1,0 +1,41 @@
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    height: 30px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black {
+    background-color: #111;
+
+}
+
+.nav__logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    left: 20px;
+}
+
+.iconnavbar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+svg {
+    color: #f34242;
+    font-size: 1.2rem;
+}
+
+.iconnavbar button:focus {
+    outline: none;
+}
